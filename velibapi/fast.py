@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from velib.data import get_data, get_station
 
-df = get_data(nrows=100_000)
+df = get_data()#nrows=100_000)
 app = FastAPI()
 
 app.add_middleware(
