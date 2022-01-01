@@ -1,7 +1,6 @@
 FROM python:3.8.6-buster
 
 COPY velibapi /velibapi
-COPY velib /velib
 COPY requirements.txt /requirements.txt
 COPY data /data
 
